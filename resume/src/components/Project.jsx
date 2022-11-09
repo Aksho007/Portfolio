@@ -1,46 +1,46 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.png";
-import installNode from "../assets/portfolio/installNode.png";
-import navbar from "../assets/portfolio/navbar.png";
-import reactParallax from "../assets/portfolio/reactParallax.png";
-import reactSmooth from "../assets/portfolio/reactSmooth.png";
-import reactWeather from "../assets/portfolio/reactWeather.png";
+import food from "../assets/portfolio/food.png";
+import placement from "../assets/portfolio/placement.png";
+import snake from "../assets/portfolio/snake.png";
+import ecom from "../assets/portfolio/ecom.png";
+import port from "../assets/portfolio/port.png";
+import quiro from "../assets/portfolio/quiro.png";
 
 const Project = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: food,
       title: "Food`Ingredient",
       href: "https://github.com/Aksho007/foodingredients",
     },
     {
       id: 2,
-      src: reactParallax,
+      src: ecom,
       title: "E Commerce",
       href: "https://github.com/Aksho007/Ecommerce",
     },
     {
       id: 3,
-      src: navbar,
+      src: snake,
       title: "Snake Game",
       href: "https://github.com/Aksho007/Snakegame",
     },
     {
       id: 4,
-      src: reactSmooth,
+      src: port,
       title: "Portfolio",
       href: "",
     },
     {
       id: 5,
-      src: installNode,
+      src: placement,
       title: "Placement_Portal",
       href: "https://github.com/Aksho007/PlacementPortal",
     },
     {
       id: 6,
-      src: reactWeather,
+      src: quiro,
       title: "Qriosity",
       href: "https://github.com/ACM-JUIT/qriosityFrontend",
     },
