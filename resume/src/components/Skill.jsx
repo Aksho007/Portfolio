@@ -42,25 +42,25 @@ const Skill = () => {
       style: "shadow-sky-400",
     },
     {
-      id: 8,
+      id: 6,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
     },
     {
-      id: 9,
+      id: 7,
       src: nodejs,
       title: "Nodejs",
       style: "shadow-green-300",
     },
     {
-      id: 10,
+      id: 8,
       src: expert,
       title: "Expressjs",
       style: "shadow-yellow-400",
     },
     {
-      id: 11,
+      id: 9,
       src: mongo,
       title: "MongoDb",
       style: "shadow-green-600",
@@ -86,8 +86,8 @@ const Skill = () => {
               key={id}
               className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
             >
-              <img src={src} alt="" className="w-20 mx-auto" />
-              <p className="mt-4">{title}</p>
+              <img src={src} alt="" className="w-9 sm:w-20 mx-auto" />
+              <p>{title}</p>
             </div>
           ))}
         </div>
