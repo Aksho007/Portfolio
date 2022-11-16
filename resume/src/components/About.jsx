@@ -14,16 +14,18 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-        Happy people plan actions, they don't plan results.<br></br><br></br>
+        Happy people plan actions, they don't plan results.
+        <br></br><br></br>
 
         Hello Everyone,<br></br><br></br>
 
-        I am second year CSE undergradute from jaypee university of information technology Solan, exploring various tech domains.<br></br>
+        I am second year CSE undergraduate from Jaypee University of Information Technology, Solan, exploring various tech domains.<br></br>
 
-        Being an aspiring web developer, I have done HTML, CSS, Javascript, Fetching api, Reactjs, Node js.<br></br>
-        And now i am learing MERN stack development <br></br>
+        Being an aspiring web developer, I have done HTML, CSS, JavaScript, Fetching API, React.js, Node.js.<br></br>
+        And now I am learning MERN stack development
+         <br></br><br></br>
 
-        Looking forward to learn new things...<br></br>
+        Looking forward to learn new things...
         </p>
 
         <br />
